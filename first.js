@@ -37,9 +37,68 @@
 //     console.log(heros[i]);
 // }   
 
-let companies = ["bloomberg", "Microsoft", "Uber", " Google", "IBM", "Netflix"];
-// companies.shift();
-companies.splice(2,1,"Ola");
-companies.push("Amazon");
+// let companies = ["bloomberg", "Microsoft", "Uber", " Google", "IBM", "Netflix"];
+// // companies.shift();
+// companies.splice(2,1,"Ola");
+// companies.push("Amazon");
 
-console.log(companies);
+// console.log(companies);
+function add(a,b){
+    console.log(a+b);
+}
+
+const mul =(a,b) =>{
+    return a*b;
+}
+
+// function countVowels(string) {
+//     let count = 0;
+//     const vowels = "aeiouAEIOU";
+//     for (let i = 0; i < string.length; i++) {
+//         if (vowels.includes(string[i])) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+
+// function countVowels(str){
+//     let count = 0;
+//     for(const char of str){
+//        if(
+//         char === "a" || char === "e" || char === "i" || char === "o" || char === "u" ||
+//         char === "A" || char === "E" || char === "I" || char === "O" || char === "U"
+//        ){
+ 
+// }//         count++;
+    
+//     }           
+// }   
+// console.log(count);
+
+
+// const countVowels = (str)
+// let nums = [1,2,3,4,5]
+// nums.forEach((num) =>{
+//     console.log(num*num); 
+
+
+// })
+
+// console.dir(document.getElementsByClassName("myclass"));
+// console.dir(document.querySelector(".myclass"));
+
+// let element = document.querySelector(".myclass");
+// console.dir(element);
+
+// let h2 = document.querySelector("h2");
+// h2.innerText = "Hello JavaScript from anmol";
+
+// let boxes = document.querySelectorAll(".box");
+// boxes.innerText = "Hello JavaScript from anmol";
+
+let button = document.createElement("button");
+button.innerText = "Click me";
+button.style.backgroundColor = "red";
+button.style.color = "white";
+document.querySelector("body").prepend(button);
