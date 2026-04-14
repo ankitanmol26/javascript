@@ -97,8 +97,9 @@ const mul =(a,b) =>{
 // let boxes = document.querySelectorAll(".box");
 // boxes.innerText = "Hello JavaScript from anmol";
 
-let button = document.createElement("button");
-button.innerText = "Click me";
-button.style.backgroundColor = "red";
-button.style.color = "white";
-document.querySelector("body").prepend(button);
+// let button = document.createElement("button");
+// button.innerText = "Click me";
+// button.style.backgroundColor = "red";
+// button.style.color = "white";
+// document.querySelector("body").prepend(button);
+console.log("hello world");
