@@ -103,3 +103,4 @@ const mul =(a,b) =>{
 // button.style.color = "white";
 // document.querySelector("body").prepend(button);
 console.log("hello world");
+console.log("hello world");
