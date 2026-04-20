@@ -43,13 +43,13 @@
 // companies.push("Amazon");
 
 // console.log(companies);
-function add(a,b){
-    console.log(a+b);
-}
+// function add(a,b){
+//     console.log(a+b);
+// }
 
-const mul =(a,b) =>{
-    return a*b;
-}
+// const mul =(a,b) =>{
+//     return a*b;
+// }
 
 // function countVowels(string) {
 //     let count = 0;
@@ -102,5 +102,27 @@ const mul =(a,b) =>{
 // button.style.backgroundColor = "red";
 // button.style.color = "white";
 // document.querySelector("body").prepend(button);
-console.log("hello world");
-console.log("hello world");
+// console.log("hello world");
+// console.log("hello world");
+
+//   function hello(callback) {
+
+//       console.log("hello");
+//   };
+
+//   hello(() =>{
+//     console.log("hello");
+//   }
+// )
+
+function getData(){
+    return new promise ((resolve,reject ) =>{
+        setTimeout(() =>
+        {
+            resolve(455);
+        }, 2000);
+    }
+    )
+}
+
+console.log(getData);
