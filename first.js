@@ -124,6 +124,16 @@ function getData(){
     }
     )
 }
+
+console.log(getData);
+console.log(getData);
+console.log(getData);
+console.log(getData);
+console.log(getData);
+console.log(getData);
+console.log(getData);
+console.log(getData);
+console.log(getData);
 console.log(getData);
 
 
