@@ -116,24 +116,18 @@
 // )
 
 function getData(){
-    return new promise ((resolve,reject ) =>{
-        setTimeout(() =>
-        {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
             resolve(455);
         }, 2000);
-    }
-    )
+    });
 }
 
-console.log(getData);
-console.log(getData);
-console.log(getData);
-console.log(getData);
-console.log(getData);
-console.log(getData);
-console.log(getData);
-console.log(getData);
-console.log(getData);
-console.log(getData);
+async function hello() {
+    const data = await getData();
+    console.log(data);
+}
+
+hello();
 
 
