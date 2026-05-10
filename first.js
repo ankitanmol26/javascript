@@ -115,19 +115,23 @@
 //   }
 // )
 
-function getData(){
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve(455);
-        }, 2000);
-    });
-}
+// function getData(){
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             resolve(455);
+//         }, 2000);
+//     });
+// }
 
-async function hello() {
-    const data = await getData();
-    console.log(data);
-}
+// async function hello() {
+//     const data = await getData();
+//     console.log(data);
+// }
 
-hello();
+// hello();
 
+btn = document.getElementById("btn");
 
+btn.addEventListener("click", () => {
+    alert("button is clicked");
+});
