@@ -139,12 +139,13 @@ btn.addEventListener("click", () => {
 });
 
 
-btn = document.getElementById("btn");
+btn = document.getElementById("btn2");
 
 btn.addEventListener("click", () => {
     alert("button is clicked");
 });
 
+d
 
 
 
