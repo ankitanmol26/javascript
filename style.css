@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #270606;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    color: #270606;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
