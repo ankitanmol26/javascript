@@ -145,7 +145,10 @@
 //     alert("button is clicked");
 // });
 
-const btn = document.getElementByClassName("btn")
+const btn = document.getElementByClassName("btn");
+btn.addEventListener("click",() =>{
+    alert("button is clicked");
+})
 
 
 
