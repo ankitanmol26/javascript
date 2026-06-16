@@ -148,7 +148,10 @@
 const btn = document.getElementByClassName("btn");
 btn.addEventListener("click",() =>{
     alert("button is clicked");
+    alert("button is clicked");
 })
+
+
 
 
 
